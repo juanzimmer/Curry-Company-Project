@@ -357,7 +357,7 @@ with st.container():
     st.markdown("""___""")
     st.title('Distribuição do tempo')
 
-    col1, col_extra, col2 = st.columns(3, gap = 'large')
+    col1, col2 = st.columns(2, gap = 'large')
 
     with col1:
         fig = pizza_1(df)
